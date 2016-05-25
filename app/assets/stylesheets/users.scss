@@ -107,7 +107,7 @@ $textDelayStep: 0.1s;
 
 $font: Helvetica, Arial, sans-serif;
 
-$btnSize: 90px;
+$btnSize: 50px;
 $lineW: 28px;
 $lineH: 4px;
 $linesGap: 10px;
@@ -130,8 +130,8 @@ $textCub: cubic-bezier(.48,.43,.7,2.5);
 .nav {
   overflow: hidden;
   position: absolute;
-  left: 50%;
-  top: 20%;
+  left: 20%;
+  top: 6%;
   width: auto;
   height: $btnSize;
   margin-top: $btnSize/-2;
