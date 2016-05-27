@@ -19,9 +19,11 @@
 	border-bottom: 2px solid;
 }
 .border {
-	background: #9BFFC3;
+	background: #BFFF9B;
     margin-left: 36%;
-    width: 30em;
+    width: 27em;
     border: 1px solid;
 }
-
+ .title {
+	color: #000;
+}

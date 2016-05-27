@@ -10,12 +10,9 @@ body {
   min-width: 300px;
   height: 80vh;
    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #282828;
+  color: #5AE25B;
 }
 
-h1 {
-  color: white;
-}
 
 
 
@@ -230,7 +227,7 @@ $textCub: cubic-bezier(.48,.43,.7,2.5);
       width: $lineW;
       height: $lineH;
       border-radius: 2px;
-      background: #096DD3;
+      background: #D3BE09;
       transform-origin: 50% 50%;
       transition: transform $navAT $cub, background-color 0.3s;
     }
