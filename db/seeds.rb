@@ -12,6 +12,7 @@ User.destroy_all
   u = User.create!(
     name: Faker::Name.name,
     age: Faker::Number.between(1, 70),
-    address: Faker::Address.street_address
+    address: Faker::Address.street_address,
+    interest: Faker::Lorem.sentences
   )
 end

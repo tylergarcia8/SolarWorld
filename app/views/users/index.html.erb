@@ -18,9 +18,9 @@
         <td><%= user.age %></td>
         <td><%= user.address %></td>
         <td><%= user.interest %></td>
-        <td><button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off"><%= link_to 'Show', user %></button></td>
-        <td><button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off"><%= link_to 'Edit', edit_user_path(user) %></button></td>
-        <td><button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off"><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></button></td>
+        <td><button type="button" class="btn btn-primary"><%= link_to 'Show', user %></button></td>
+        <td><button type="button" class="btn btn-primary"><%= link_to 'Edit', edit_user_path(user) %></button></td>
+        <td><button type="button" class="btn btn-primary" autocomplete="off"><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></button></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,6 +28,6 @@
 
 <br>
 
-<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+<button type="button" class="btn btn-primary">
 <%= link_to 'New User', new_user_path %>
 </button>
