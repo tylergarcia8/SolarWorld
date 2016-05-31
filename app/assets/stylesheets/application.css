@@ -22,9 +22,10 @@ h1{
 }
 .border {
 	background-color: darkgrey;
-    margin-left: 37%;
+    margin-left: 36%;
     width: 26em;
     border: 1px solid;
+    border-radius: 20px;
 }
  .title {
 	color: #000;
