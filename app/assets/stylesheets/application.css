@@ -14,22 +14,25 @@
  *= require_self
  */
 
-h1{
-	font-family: 'Dancing Script', cursive;
-}
-.topbar {
-	text-align: center;
-}
-.border {
-	background-color: darkgrey;
-    margin-left: 37%;
-    width: 26em;
-    border: 1px solid;
-    border-radius: 20px;
-}
+ h1{
+ 	font-family: 'Dancing Script', cursive;
+ }
+ .topbar {
+ 	text-align: center;
+ }
+ .border {
+ 	background-color: darkgrey;
+ 	margin-left: 37%;
+ 	width: 26em;
+ 	border: 1px solid;
+ 	border-radius: 20px;
+ }
  .title {
-	color: #000;
-}
-table th {
-    background: darkgrey;
-}
+ 	color: #000;
+ }
+ table th {
+ 	background: darkgrey;
+ }
+ table{
+ 	border-radius: 20px;
+ }
