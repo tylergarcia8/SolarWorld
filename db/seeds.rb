@@ -6,10 +6,12 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-10.times do 
+User.destroy_all
+
+50.times do |u|
   u = User.create!(
     name: Faker::Name.name,
-    age: Faker::Number.between(1, 70)
+    age: Faker::Number.between(1, 70),
     address: Faker::Address.street_address
   )
 end
