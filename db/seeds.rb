@@ -13,6 +13,6 @@ User.destroy_all
     name: Faker::Name.name,
     age: Faker::Number.between(1, 70),
     address: Faker::Address.street_address,
-    interest: Faker::Lorem.sentences
+    interest: Faker::Lorem.paragraph
   )
 end
