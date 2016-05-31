@@ -21,6 +21,7 @@ h1{
 	text-align: center;
 }
 .border {
+	background-color: darkgrey;
     margin-left: 37%;
     width: 26em;
     border: 1px solid;
