@@ -133,6 +133,7 @@ html, body {
 }
 .nav__item:hover {
   color: #00bdea;
+  background-color: #6C7784;
 }
 .nav__item-text {
   display: block;
