@@ -13,7 +13,9 @@
  *= require_tree .
  *= require_self
  */
-
+h1{
+	font-family: 'Dancing Script', cursive;
+}
 .topbar {
 	text-align: center;
 	border-bottom: 2px solid;
