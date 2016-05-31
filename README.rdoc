@@ -1,28 +1,25 @@
-== README
+Wind Power Applicaltion
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* where a user may input his info in a survey format
+ -name
+ -age
+ -address
+ -interest in Wind Power
 
-Things you may want to cover:
+* The application was built on a RoR framework
+ -user was scaffolded and added attributes(name,age,address,interest)
 
-* Ruby version
+* Used bootstrap to style buttons
+ -new user, show, edit, and destroy all styled buttons
 
-* System dependencies
+* Faker gem added to show many users 
+ -displayed in table with random names, ages, addresses, and interests
 
-* Configuration
+* Menu opener on top bar
+ -css animation
 
-* Database creation
+* Database
+ -Postgresql
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Deployed to heroku
+ - https://windpower.herokuapp.com/
