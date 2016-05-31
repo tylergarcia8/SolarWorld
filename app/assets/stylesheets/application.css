@@ -18,14 +18,17 @@ h1{
 }
 .topbar {
 	text-align: center;
-	border-bottom: 2px solid;
 }
 .border {
-	background: #BFFF9B;
-    margin-left: 36%;
-    width: 27em;
+	font-family: 
+	background: ;
+    margin-left: 33%;
+    width: 26em;
     border: 1px solid;
 }
  .title {
 	color: #000;
+}
+table th {
+    background: darkgrey;
 }
