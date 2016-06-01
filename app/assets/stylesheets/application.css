@@ -40,4 +40,6 @@
  input, textarea {
  	border-radius: 20px;
  }
- 
+ a:focus, a:hover {
+     text-decoration: none; 
+}
