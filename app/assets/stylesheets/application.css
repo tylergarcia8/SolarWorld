@@ -36,3 +36,7 @@
  table{
  	border-radius: 20px;
  }
+
+ input, textarea {
+ 	border-radius: 20px;
+ }
