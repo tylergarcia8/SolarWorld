@@ -63,3 +63,7 @@ div.field, div.actions {
 .field-1 {
   margin-top: 40px;
 }
+.btn-primary input {
+  background: transparent;
+  border: none;
+}
