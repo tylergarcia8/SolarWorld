@@ -35,6 +35,7 @@
  }
  table{
  	border-radius: 20px;
+ 	background-color: whitesmoke;
  }
 
  input, textarea {
