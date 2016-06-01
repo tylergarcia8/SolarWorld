@@ -206,9 +206,9 @@ html, body {
 .button {
   position: relative;
 }
-.pagination1 {
+.pagination {
   margin-bottom: none;
 }
-.pagination2 {
-  margin-top: none;
+ul.pagination {
+  margin: none;
 }
